@@ -4,12 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Ebenezer Nana Yaw Asamoah-WDD230-Web Frontend Development</title>
+    <meta name="description"
+        content="Ebenezer Nana Yaw Asamoah's course assignment portal for WDD 230- Web Frontend Development to link all assignments for this course.">
+    <meta name="author" content="Ebenezer Nana Yaw Asamoah">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
-    <h1>Test Page</h1>
-    <p>This is a paragraph</p>
+    <header>
+        <img src="images/profile.jpg" alt="Ebenezer Asamoah profile" width="75" height="100">
+        <span>Ebenezer Nana Yaw Asamoah</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#Chamber">Chamber</a></li>
+            <li><a href="#SitePlan">Site Plan</a></li>
+            <li><a href="#Form">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <hr>
+        <div class="parentcard">
+            <section class="card1">
+                <h2><span>Learning Activity</span></h2>
+                <ul>
+                    <li><a href="week01">Layout</a> | <a href="">Media Query</a> | <a href="">JS Pen</a></li>
+                    <li><a href="week02">Activity 2</a></li>
+                    <li><a href="week03">Activity 3</a></li>
+                </ul>
+
+            </section>
+
+            <section class="card2">
+                <h2><span>Information</span></h2>
+
+                <div class="contentspan">
+                    <div id="location"></div>
+                    <div id="temperature"></div>
+                    <div id="pagevisits"></div>
+                </div>
+            </section>
+        </div>
+        <div class="spacerbottom"></div>
+    </main>
+    <footer>
+        <p id="copyright">&copy;<span id="year"></span> - Ebenezer Nana Yaw Asamoah - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
